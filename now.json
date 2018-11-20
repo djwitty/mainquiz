@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "alias": ["mainquiz-1swc08yyh.now.sh", "https://mainquiz-1swc08yyh.now.sh"],
+  "version": 2,
+  "public": true,
+  "github": {
+    "enabled": true,
+    "autoAlias": true
+  },
+  "builds": [
+    { "src": "*.html", "use": "@now/static" },
+    { "src": "*.php", "use": "@now/php" },
+    { "src": "*.js", "use": "@now/node" }
+  ]
+}

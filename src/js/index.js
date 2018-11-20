@@ -4,3 +4,4 @@
 // /getUpdates
 */
 
+console.log(window);
